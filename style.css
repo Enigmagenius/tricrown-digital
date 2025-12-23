@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #f9f9f9;
+  color: #222;
+  line-height: 1.6;
+}
+
+.hero {
+  background: #1f3c88;
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+}
+
+.hero p {
+  margin: 15px 0;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.btn {
+  background: white;
+  color: #1f3c88;
+  padding: 12px 20px;
+  text-decoration: none;
+  margin: 5px;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+.btn.secondary {
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+}
+
+.section {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.section h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.05);
+}
+
+.reasons {
+  list-style: none;
+  text-align: center;
+}
+
+.reasons li {
+  margin: 10px 0;
+}
+
+.contact {
+  text-align: center;
+}
+
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+.contact-form {
+  max-width: 500px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.contact-form textarea {
+  min-height: 120px;
+}
+
+.contact-form button {
+  cursor: pointer;
+}
+
+.price {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 15px 0;
+  color: #1f3c88;
+}
+
+.price-card ul {
+  list-style: none;
+  margin: 20px 0;
+}
+
+.price-card ul li {
+  margin: 8px 0;
+}
+
+.featured {
+  border: 2px solid #1f3c88;
+  transform: scale(1.05);
+}
