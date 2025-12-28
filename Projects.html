@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Projects | TriCrown Digital</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles-project.css">
+
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="icon" type="image/png" sizes="64x64" href="favicon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon.png">
+
+    <script src="script2.js" defer></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <img src="favicon.png" alt="TriCrown Digital">
+            <span>TriCrown Digital</span>
+        </div>
+
+        <nav class="nav" id="navLinks">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="index.html#pricing">Pricing</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="index.html#contact" class="btn">Contact</a></li>
+            </ul>
+        </nav>
+
+        <button id="theme-toggle">🌙</button>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <section class="projects-hero">
+        <h1>Our Projects</h1>
+        <p>A selection of websites, tools, and digital solutions weve built.</p>
+    </section>
+
+    <p class="projects-intro">
+        Below are selected projects that demonstrate our design quality,
+        technical skills, and attention to detail.
+    </p>
+
+    <div class="project-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="web">Web</button>
+        <button class="filter-btn" data-filter="tools">Tools</button>
+        <button class="filter-btn" data-filter="design">Design</button>
+    </div>
+
+    <section class="projects-grid">
+        <!-- Project Card -->
+        <div class="project-card featured" data-category="web">
+            <img src="images/tricrown-preview.png" alt="TriCrown Digital Website">
+
+            <h3>TriCrown Digital</h3>
+            <p>Main business website for TriCrown Digital.</p>
+
+            <div class="tags">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+
+            <div class="project-links">
+                <a href="https://enigmagenius.github.io/tricrown-digital/" target="_blank">Live</a>
+                <a href="https://github.com/enigmagenius/tricrown-digital" target="_blank">GitHub</a>
+                <a href="tricrown-case.html">Case Study</a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <h3>Project Name</h3>
+            <p>Short description of what this project does.</p>
+            <div class="tags">
+                <span>JavaScript</span><span>API</span>
+            </div>
+            <a href="#" target="_blank">View Project →</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Coming Soon</h3>
+            <p>More projects currently in development.</p>
+            <div class="tags">
+                <span>In Progress</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects-cta">
+        <h2>Like what you see?</h2>
+        <p>View pricing or contact us to start your project.</p>
+        <div class="cta-buttons">
+            <a href="pricing.html" class="btn-primary">View Pricing</a>
+            <a href="contact.html" class="btn-secondary">Contact</a>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <p>© 2025 TriCrown Digital</p>
+    </footer>
+
+</body>
+
+</html>
